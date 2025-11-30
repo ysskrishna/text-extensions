@@ -1,8 +1,7 @@
 # Text Extensions
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ysskrishna/text-extensions/blob/main/LICENSE)
 ![Tests](https://github.com/ysskrishna/text-extensions/actions/workflows/test.yml/badge.svg)
 
 Python port of [text-extensions](https://github.com/sindresorhus/text-extensions) npm package. Check if a file or extension is text, and iterate over 300+ known text file types including source code, markup, data formats, and configuration files.
