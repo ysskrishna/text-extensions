@@ -328,6 +328,6 @@ TEXT_EXTENSIONS = frozenset((
     "yml",
     "zsh",
     "zshrc",
-    
 ))
 
+TEXT_EXTENSIONS_LOWER = frozenset(ext.lower() for ext in TEXT_EXTENSIONS)

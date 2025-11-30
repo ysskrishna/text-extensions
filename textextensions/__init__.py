@@ -1,7 +1,7 @@
 import os.path
-from textextensions._data import TEXT_EXTENSIONS
+from textextensions._data import TEXT_EXTENSIONS, TEXT_EXTENSIONS_LOWER
 
-__all__ = ["TEXT_EXTENSIONS", "is_text_extension", "is_text_path"]
+__all__ = ["TEXT_EXTENSIONS", "TEXT_EXTENSIONS_LOWER", "is_text_extension", "is_text_path"]
 
 def is_text_extension(ext: str) -> bool:
     """
@@ -13,7 +13,7 @@ def is_text_extension(ext: str) -> bool:
         >>> is_text_extension(".png")
         False
     """
-    return ext.lower().lstrip(".") in TEXT_EXTENSIONS
+    return ext.lower().lstrip(".") in TEXT_EXTENSIONS_LOWER
 
 def is_text_path(file_path: str) -> bool:
     """
@@ -40,5 +40,5 @@ def is_text_path(file_path: str) -> bool:
     else:
         ext = ext.lstrip(".")
     
-    return ext.lower() in TEXT_EXTENSIONS
+    return ext.lower() in TEXT_EXTENSIONS_LOWER
 
