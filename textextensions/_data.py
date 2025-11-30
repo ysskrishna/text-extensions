@@ -78,6 +78,7 @@ TEXT_EXTENSIONS = frozenset((
     "emacs",
     "eml",
     "ent",
+    "env",
     "erb",
     "erl",
     "eslintignore",
