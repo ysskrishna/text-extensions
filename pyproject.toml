@@ -1,6 +1,6 @@
 [project]
 name = "text-extensions"
-version = "0.1.0"
+version = "1.0.0"
 description = "Python port of text-extensions npm package. Check if a file or extension is text, and iterate over 300+ known text file types including source code, markup, data formats, and configuration files."
 readme = "README.md"
 requires-python = ">=3.8"
