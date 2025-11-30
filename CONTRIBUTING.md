@@ -54,7 +54,7 @@ uv run pytest tests/test_is_text_extension.py
 
 If you want to add new text extensions to the list:
 
-1. Edit `textextensions/_data.py`
+1. Edit `text_extensions/_data.py`
 2. Add the extension (lowercase, without leading dot) to the `TEXT_EXTENSIONS` frozenset
 3. Add corresponding test cases in the test files
 4. Run the test suite to ensure everything passes

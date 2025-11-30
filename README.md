@@ -33,7 +33,7 @@ uv add text-extensions
 ### Check if an extension is text
 
 ```python
-from textextensions import is_text_extension
+from text_extensions import is_text_extension
 
 is_text_extension("txt")      # True
 is_text_extension(".py")      # True (dot-aware)
@@ -44,7 +44,7 @@ is_text_extension("png")      # False
 ### Check if a file path has a text extension
 
 ```python
-from textextensions import is_text_path
+from text_extensions import is_text_path
 
 is_text_path("document.txt")              # True
 is_text_path("/path/to/file.PY")          # True (case-insensitive)
@@ -56,7 +56,7 @@ is_text_path(".gitignore")                # True (dotfile support)
 ### Access the list of text extensions
 
 ```python
-from textextensions import TEXT_EXTENSIONS, TEXT_EXTENSIONS_LOWER
+from text_extensions import TEXT_EXTENSIONS, TEXT_EXTENSIONS_LOWER
 
 # TEXT_EXTENSIONS is a frozenset of all known text extensions
 print(len(TEXT_EXTENSIONS))  # Number of supported extensions

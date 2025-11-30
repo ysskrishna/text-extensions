@@ -1,5 +1,5 @@
 import pytest
-from textextensions import is_text_extension
+from text_extensions import is_text_extension
 from ._data import TEXT_EXAMPLES, NON_TEXT_EXAMPLES
 
 

@@ -1,5 +1,5 @@
 import os.path
-from textextensions._data import TEXT_EXTENSIONS, TEXT_EXTENSIONS_LOWER
+from text_extensions._data import TEXT_EXTENSIONS, TEXT_EXTENSIONS_LOWER
 
 __all__ = ["TEXT_EXTENSIONS", "TEXT_EXTENSIONS_LOWER", "is_text_extension", "is_text_path"]
 

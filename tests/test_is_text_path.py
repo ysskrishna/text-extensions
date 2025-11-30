@@ -1,5 +1,5 @@
 import pytest
-from textextensions import is_text_path
+from text_extensions import is_text_path
 from ._data import TEXT_PATHS, NON_TEXT_PATHS, HIDDEN_TEXT_PATHS, HIDDEN_NON_TEXT_PATHS
 
 
