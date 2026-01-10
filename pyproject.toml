@@ -1,6 +1,6 @@
 [project]
 name = "text-extensions"
-version = "1.0.0"
+version = "1.0.1"
 description = "Check if a file or extension is text, and iterate over 300+ known text file types including source code, markup, data formats, and configuration files. Python port of text-extensions npm package."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -38,7 +38,9 @@ keywords = [
     "utilities",
     "utils",
     "ascii",
-    "source-code"
+    "source-code",
+    "mit license",
+    "ysskrishna"
 ]
 dependencies = []
 
@@ -51,6 +53,8 @@ dev = [
 Homepage = "https://github.com/ysskrishna/text-extensions"
 Repository = "https://github.com/ysskrishna/text-extensions.git"
 Issues = "https://github.com/ysskrishna/text-extensions/issues"
+Changelog = "https://github.com/ysskrishna/text-extensions/blob/main/CHANGELOG.md"
+Discussions = "https://github.com/ysskrishna/text-extensions/discussions"
 
 [build-system]
 requires = ["hatchling"]

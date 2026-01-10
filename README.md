@@ -3,6 +3,8 @@
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ysskrishna/text-extensions/blob/main/LICENSE)
 ![Tests](https://github.com/ysskrishna/text-extensions/actions/workflows/test.yml/badge.svg)
+[![PyPI](https://img.shields.io/pypi/v/text-extensions)](https://pypi.org/project/text-extensions/)
+[![PyPI Downloads](https://static.pepy.tech/personalized-badge/text-extensions?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/text-extensions)
 
 Check if a file or extension is text, and iterate over 300+ known text file types including source code, markup, data formats, and configuration files. Python port of [text-extensions](https://github.com/sindresorhus/text-extensions) npm package.
 
@@ -83,6 +85,11 @@ The package includes support for hundreds of text file extensions, including:
 ## Credits
 
 This package is a Python port of the [text-extensions](https://github.com/sindresorhus/text-extensions) npm package by [Sindre Sorhus](https://github.com/sindresorhus).
+
+
+## Changelog
+
+See [CHANGELOG.md](https://github.com/ysskrishna/text-extensions/blob/main/CHANGELOG.md) for a detailed list of changes and version history.
 
 ## Contributing
 
