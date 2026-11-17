@@ -1,0 +1,29 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "text-extensions",
+  "description": "Zero-dependency Python library to check whether a file extension or path is a text file type, with a frozenset of 300+ known text extensions (source code, markup, data and config formats). Python port of the text-extensions npm package.",
+  "excludeFolders": [
+    "archive",
+    "archived",
+    "old",
+    "deprecated",
+    "legacy",
+    "tests",
+    ".github"
+  ],
+  "excludeFiles": [
+    "CHANGELOG.md",
+    "changelog.md",
+    "LICENSE.md",
+    "license.md",
+    "CODE_OF_CONDUCT.md",
+    "NEWS.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "AGENTS.md"
+  ],
+  "rules": [
+    "Import from text_extensions: is_text_extension, is_text_path, TEXT_EXTENSIONS, TEXT_EXTENSIONS_LOWER.",
+    "is_text_path checks only the file name; a path without an extension (for example Makefile) returns False."
+  ]
+}

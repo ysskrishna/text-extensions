@@ -69,6 +69,46 @@ print(len(TEXT_EXTENSIONS))  # Number of supported extensions
 "TXT" in TEXT_EXTENSIONS_LOWER  # True (case-insensitive)
 ```
 
+## API Reference
+
+Install with `pip install text-extensions` and import from `text_extensions`. Signatures and descriptions below match the source code of `text_extensions`.
+
+### `TEXT_EXTENSIONS`
+
+Constant: `frozenset` with 329 entries.
+
+### `TEXT_EXTENSIONS_LOWER`
+
+Constant: `frozenset` with 329 entries.
+
+### `is_text_extension(ext: str) -> bool`
+
+Return True if the given file extension is known to be text.
+
+**Example**
+
+```python
+from text_extensions import is_text_extension
+
+is_text_extension("txt")  # True
+is_text_extension(".png")  # False
+```
+
+### `is_text_path(file_path: str) -> bool`
+
+Return True if the file path has a text file extension.
+
+**Example**
+
+```python
+from text_extensions import is_text_path
+
+is_text_path("document.txt")  # True
+is_text_path("image.png")  # False
+is_text_path("/path/to/file.PY")  # True
+is_text_path(".gitignore")  # True
+```
+
 ## Supported Extensions
 
 The package includes support for hundreds of text file extensions, including:
@@ -76,7 +116,7 @@ The package includes support for hundreds of text file extensions, including:
 - **Source Code**: py, js, ts, java, c, cpp, go, rs, rb, php, and more
 - **Markup**: html, xml, md, markdown, json, yaml, yml, and more
 - **Stylesheets**: css, scss, sass, less, styl, and more
-- **Configuration**: ini, conf, cfg, json, yaml, toml, and more
+- **Configuration**: ini, conf, cfg, json, yaml, and more
 - **Data Formats**: csv, tsv, json, xml, sql, and more
 - **Documentation**: txt, md, rst, tex, and more
 - **Scripts**: sh, bash, zsh, fish, bat, cmd, and more
