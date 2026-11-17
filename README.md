@@ -5,6 +5,8 @@
 ![Tests](https://github.com/ysskrishna/text-extensions/actions/workflows/test.yml/badge.svg)
 [![PyPI](https://img.shields.io/pypi/v/text-extensions)](https://pypi.org/project/text-extensions/)
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/text-extensions?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/text-extensions)
+[![Context7](https://img.shields.io/badge/Context7-docs-18181B)](https://context7.com/ysskrishna/text-extensions)
+[![Ask DeepWiki](https://img.shields.io/badge/DeepWiki-ask-18181B)](https://deepwiki.com/ysskrishna/text-extensions)
 
 Check if a file or extension is text, and iterate over 300+ known text file types including source code, markup, data formats, and configuration files. Python port of [text-extensions](https://github.com/sindresorhus/text-extensions) npm package.
 
