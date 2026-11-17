@@ -2,9 +2,10 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ysskrishna/text-extensions/blob/main/LICENSE)
-![Tests](https://github.com/ysskrishna/text-extensions/actions/workflows/test.yml/badge.svg)
+[![Tests](https://github.com/ysskrishna/text-extensions/actions/workflows/test.yml/badge.svg)](https://github.com/ysskrishna/text-extensions/actions/workflows/test.yml)
 [![PyPI](https://img.shields.io/pypi/v/text-extensions)](https://pypi.org/project/text-extensions/)
 [![PyPI Downloads](https://static.pepy.tech/personalized-badge/text-extensions?period=total&units=INTERNATIONAL_SYSTEM&left_color=GREY&right_color=BLUE&left_text=downloads)](https://pepy.tech/projects/text-extensions)
+[![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
 [![Context7](https://img.shields.io/badge/Context7-docs-18181B)](https://context7.com/ysskrishna/text-extensions)
 [![Ask DeepWiki](https://img.shields.io/badge/DeepWiki-ask-18181B)](https://deepwiki.com/ysskrishna/text-extensions)
 
@@ -129,33 +130,41 @@ The package includes support for hundreds of text file extensions, including:
 This package is a Python port of the [text-extensions](https://github.com/sindresorhus/text-extensions) npm package by [Sindre Sorhus](https://github.com/sindresorhus).
 
 
-## Changelog
-
-See [CHANGELOG.md](https://github.com/ysskrishna/text-extensions/blob/main/CHANGELOG.md) for a detailed list of changes and version history.
-
 ## Contributing
 
 Contributions are welcome! Please read our [Contributing Guide](https://github.com/ysskrishna/text-extensions/blob/main/CONTRIBUTING.md) for details on our code of conduct, development setup, and the process for submitting pull requests.
 
+## Built and maintained by
+
+Text Extensions is built and maintained by:
+
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
+
+## Changelog
+
+See [CHANGELOG](CHANGELOG.md) for release history.
 
 ## Support
 
-If you find this library useful, please consider:
+If you find this library helpful:
 
-- ⭐ **Starring** the repository on GitHub to help others discover it.
-- 💖 **Sponsoring** to support ongoing maintenance and development.
-
-[Become a Sponsor on GitHub](https://github.com/sponsors/ysskrishna) | [Support on Patreon](https://patreon.com/ysskrishna)
+- ⭐ Star the repository
+- 🐛 [Report issues](https://github.com/ysskrishna/text-extensions/issues)
+- 🔀 Submit pull requests
+- 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
 
 ## License
 
-MIT License - see [LICENSE](https://github.com/ysskrishna/text-extensions/blob/main/LICENSE) file for details.
+MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LICENSE) for details.
 
+---
 
-## Author
-
-**Y. Siva Sai Krishna**
-
-- GitHub: [@ysskrishna](https://github.com/ysskrishna)
-- LinkedIn: [ysskrishna](https://linkedin.com/in/ysskrishna)
-
+<p align="left">
+  <a href="https://github.com/ysskrishna">Author's GitHub</a> •
+  <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
+  <a href="https://ysskrishna.space">Author's site</a> •
+  <a href="https://pypi.org/project/text-extensions/">Package on PyPI</a> •
+  <a href="https://github.com/ysskrishna/text-extensions/issues">Report Issues</a>
+</p>
