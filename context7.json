@@ -1,5 +1,7 @@
 {
   "$schema": "https://context7.com/schema/context7.json",
+  "url": "https://context7.com/ysskrishna/text-extensions",
+  "public_key": "pk_VesXVq9WjBT8ecKU9XIZz",
   "projectTitle": "text-extensions",
   "description": "Zero-dependency Python library to check whether a file extension or path is a text file type, with a frozenset of 300+ known text extensions (source code, markup, data and config formats). Python port of the text-extensions npm package.",
   "excludeFolders": [
